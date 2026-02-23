@@ -33,6 +33,9 @@
 - [퀵 정렬 (Quick Sort)](Algorithm/quick-sort.md)
 - [A* 경로 탐색 알고리즘](Algorithm/a-star-pathfinding.md)
 
+### C
+- [C언어 기초](C/c-language-basics.md)
+
 ### Git
 -
 
