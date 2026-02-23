@@ -33,6 +33,3 @@
 -
 
 ---
-
-## 참고
-- [cheese10yun/TIL](https://github.com/cheese10yun/TIL)
