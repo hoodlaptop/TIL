@@ -27,7 +27,11 @@
 - [Unity에서 FMOD 기본 사용법](FMOD/fmod-unity-basics.md)
 
 ### Algorithm
--
+- [버블 정렬 (Bubble Sort)](Algorithm/bubble-sort.md)
+- [선택 정렬 (Selection Sort)](Algorithm/selection-sort.md)
+- [삽입 정렬 (Insertion Sort)](Algorithm/insertion-sort.md)
+- [퀵 정렬 (Quick Sort)](Algorithm/quick-sort.md)
+- [A* 경로 탐색 알고리즘](Algorithm/a-star-pathfinding.md)
 
 ### Git
 -
