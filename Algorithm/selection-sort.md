@@ -54,4 +54,4 @@ int main()
 버블 정렬보다 스왑 횟수가 적어 효율적이지만, 주로 사용하기에는 적합하지 않다.
 
 ## 참고
-- [원본 블로그](https://hood-laptop.tistory.com/3)
+- [내 블로그](https://hood-laptop.tistory.com/3)

@@ -110,4 +110,4 @@ vector<pair<int,int>> AStar(vector<vector<int>>& grid,
 - 전략 게임의 유닛 이동
 
 ## 참고
-- [원본 블로그](https://hood-laptop.tistory.com/6)
+- [내 블로그](https://hood-laptop.tistory.com/6)

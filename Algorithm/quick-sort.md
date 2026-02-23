@@ -66,4 +66,4 @@ int main()
 - 이미 정렬된 리스트에서는 불균형 분할로 인해 성능 저하 발생
 
 ## 참고
-- [원본 블로그](https://hood-laptop.tistory.com/5)
+- [내 블로그](https://hood-laptop.tistory.com/5)

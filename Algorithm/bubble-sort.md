@@ -40,4 +40,4 @@ int main() {
 최악의 경우 배열의 모든 부분을 반복하기에 효율적인 정렬법이 아니다.
 
 ## 참고
-- [원본 블로그](https://hood-laptop.tistory.com/2)
+- [내 블로그](https://hood-laptop.tistory.com/2)

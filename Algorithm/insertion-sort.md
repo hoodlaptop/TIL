@@ -59,4 +59,4 @@ int main()
 선택 정렬과 버블 정렬에 비해 구현이 간단하고 빠르고 안정적이다. 하지만 배열이 길어질수록 효율이 저하되고 임시변수가 필요하다는 단점이 있다.
 
 ## 참고
-- [원본 블로그](https://hood-laptop.tistory.com/4)
+- [내 블로그](https://hood-laptop.tistory.com/4)
