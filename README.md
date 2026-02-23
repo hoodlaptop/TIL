@@ -1,6 +1,6 @@
 # TIL (Today I Learned)
 
-> 오늘 배운 것을 기록합니다.
+> 게임 개발자로서 오늘 배운 것을 기록합니다.
 
 ## 작성 규칙
 
@@ -13,22 +13,23 @@
 
 ## 분류
 
-### Spring
+### Unity
+- [ScriptableObject 활용법](Unity/scriptable-object.md)
+- [싱글톤 패턴으로 GameManager 만들기](Unity/singleton-gamemanager.md)
+
+### C#
+- [제네릭을 활용한 오브젝트 풀링](CSharp/generic-object-pool.md)
+
+### GameDesign
+- [카드 기반 전투 시스템 설계](GameDesign/card-combat-system.md)
+
+### FMOD
+- [Unity에서 FMOD 기본 사용법](FMOD/fmod-unity-basics.md)
+
+### Algorithm
 -
 
-### Java
--
-
-### Database
--
-
-### JavaScript
--
-
-### DevOps
--
-
-### ETC
+### Git
 -
 
 ---
