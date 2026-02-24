@@ -130,5 +130,76 @@ printf("[%.2f]\n", 3.14);   // 소수점 2자리
 - `Ctrl + B`: 빌드만 수행
 - `Ctrl + Shift + A`: 새 소스파일 추가
 
+## 변수 (Variable)
+
+변할 수 있는 수. 선언 형식: `자료형 변수명 = 값;`
+
+```c
+int Num = 2147483647;  // 선언과 동시에 초기화
+double PI;             // 선언만
+PI = 3.141592;         // 이후 초기화
+```
+
+### unsigned와 signed
+
+- `unsigned`: 부호 없음 (양수만), 양수 범위 2배
+- `signed`: 부호 있음 (기본값, 생략 가능)
+
+```c
+unsigned char UnsignedCharNum = 255;  // 0 ~ 255
+signed char SignedCharNum = -128;     // -128 ~ 127
+```
+
+### 오버플로우 (Overflow)
+
+자료형이 표현 가능한 범위를 넘어서는 경우. 그릇에 물이 넘치는 것과 같다.
+
+```c
+unsigned char num = 255;
+num = num + 1;  // 오버플로우 → 0이 됨
+```
+
+## ASCII
+
+### 컴퓨터는 문자를 이해할 수 없다
+
+문자는 인코딩 과정을 거쳐 숫자로 변환되어 저장된다.
+
+- **인코딩(Encoding)**: 형태 A → 형태 B 변환
+- **디코딩(Decoding)**: 형태 B → 형태 A 변환
+
+### ASCII (American Standard Code for Information Interchange)
+
+문자와 숫자 사이의 대표적인 인코딩 규약.
+
+```c
+char ch = 'A';
+printf("%c\n", ch);      // A 출력
+printf("%d\n", ch);      // 65 출력 (ASCII 코드)
+printf("%c\n", ch + 2);  // C 출력
+```
+
+### 유니코드 (Unicode)
+
+전세계 모든 문자를 표현하기 위한 문자 인코딩. UTF-8, UTF-16, UTF-32가 있다.
+
+## scanf() 함수
+
+키보드로부터 데이터를 입력받는 함수.
+
+```c
+#define _CRT_SECURE_NO_WARNINGS  // stdio.h 인클루드 전에 정의
+
+#include <stdio.h>
+
+int main(void)
+{
+    int Num;
+    scanf("%d", &Num);  // &: 주소 연산자
+    printf("%d", Num);
+    return 0;
+}
+```
+
 ## 참고
 - Visual Studio Community 설치: https://visualstudio.microsoft.com/ko/vs/community/

@@ -35,6 +35,7 @@
 
 ### C
 - [C언어 기초](C/c-language-basics.md)
+- [C언어 연산자](C/c-operators.md)
 
 ### Git
 -
