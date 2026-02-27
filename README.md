@@ -40,6 +40,8 @@
 - [C언어 이중 반복문](C/c-nested-loops.md)
 - [C언어 배열](C/c-arrays.md)
 - [C언어 함수와 스택 프레임](C/c-functions.md)
+- [C언어 스코프와 변수의 종류](C/c-scope-variables.md)
+- [C언어 포인터](C/c-pointers.md)
 
 ### Unreal
 - [블루프린트 기초](Unreal/blueprint-basics.md)
