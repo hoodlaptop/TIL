@@ -47,5 +47,6 @@
 - [블루프린트 기초](Unreal/blueprint-basics.md)
 - [Enhanced Input System](Unreal/enhanced-input-system.md)
 - [Animation State Machine](Unreal/animation-state-machine.md)
+- [블루프린트 사격 시스템 및 기믹](Unreal/blueprint-shooting-gimmicks.md)
 
 ---
